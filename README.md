@@ -10,6 +10,7 @@ Create a pull request, if you don't know how to do that, check [this link](https
 I'll try to merge your pull request as quickly as possible!
 
 Just so you know, you can also recommend ideas!
+#### So what are you waiting for? Go make an issue **NOW**!
 ### Quality
 We want this repo to count in HacktoberFest, so we need to abide by their core rules, one of which includes quality.
 Here is an example of what you should not make because it does not have sufficient quality:
