@@ -9,20 +9,28 @@ Once your issue has been assigned to you, Go ahead and make that amazing program
 Create a pull request, if you don't know how to do that, check [this link](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 I'll try to merge your pull request as quickly as possible!
 
+Just so you know, you can also recommend ideas!
 ### Quality
 We want this repo to count in HacktoberFest, so we need to abide by their core rules, one of which includes quality.
-Here is an example of what you should not make because it does not have sufficiant quality:
+Here is an example of what you should not make because it does not have sufficient quality:
 ```
 A number guessing game in python
 ```
 I mean come on, that's just a few if/else statements and a while loop.
 
-However, the following adds complexity to it, and in-turn improves quality.
+However, the following adds complexity to it, and in turn improves quality.
 ```
-A program that shows the best stratergy for number guesssing games
+A program that shows the best strategy for number guessing games
 ```
-This would require you to think about different stratergies you can take when playing a guessing game, and then code them in and see which one is the best. 
+This would require you to think about different strategies you can take when playing a guessing game, and then code them in and see which one is the best. 
 
-**Many people have different opinions on what is sufficiant quality. Please be sure to make an issue and have it assigned to you before you start. We would hate it if your work was for nothing, but at the same time, we also need to make sure that this repo counts for other people**
+**Many people have different opinions on what is sufficient quality. Please be sure to make an issue and have it assigned to you before you start. We would hate it if your work was for nothing, but at the same time, we also need to make sure that this repo counts for other people**
 
 Remember, you should not be contributing to this repo to just +1 your PR count. This is why when you make an issue, we require you to provide a use case.
+
+### I NEED HELP!!
+
+If you need help with something related to the repo, please create an issue separate from your project.
+
+### We am (unfortunately) a human
+We are humans, and have other stuff to do as well. It might take us a little bit of time to respond to your issue and pull request, but we **PROMISE** we will respond within 18 hours. If we don't, you get absolute priority on any other issues or PRs you make!
