@@ -30,7 +30,7 @@ Remember, you should not be contributing to this repo to just +1 your PR count. 
 
 ### I NEED HELP!!
 
-If you need help with something related to the repo, please create an issue separate from your project.
+If you need help with something related to the repo, please create an issue separate from your project. If there is no folder for the language you will make your project in, go ahead and make it!
 
 ### We are (unfortunately) humans
 We are humans, and have other stuff to do as well. It might take us a little bit of time to respond to your issue and pull request, but we **PROMISE** we will respond within 18 hours (usually much much quicker). If we don't, you get absolute priority on any other issues or PRs you make!
