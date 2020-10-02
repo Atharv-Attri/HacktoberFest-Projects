@@ -22,12 +22,8 @@ This Python file creates Captain America Shield using Turtle Module
 
 *************************************************************************************************************
 
-CONTACT :
-INSTAGRAM :- @yash_8019
-GITHUB :- yashqwerty1
-EMAIL :- yashupadhye276@gmail.com
 
-*************************************************************************************************************
+
 
 
 
