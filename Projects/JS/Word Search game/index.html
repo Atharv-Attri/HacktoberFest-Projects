@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>WORD GAME </h1>
+      </header>
+      <main>
+        <div id="words">
+          <h3>Words To Find</h3>
+          <ul>
+            <li v-for="word in words" v-bind:class="word">{{word}}</li>
+          </ul>
+        </div>
+        <div id="boxOfLetters" v-on:click="highlight($event)">
+          <div v-for="(letter,index) in char" class="boxes" style="background-color:tomato">
+            <div v-bind:id="identity(index)">{{letter}}</div>
+          </div>
+        </div>
+        <div id="points">
+          <h3>Points</h3>
+          <div class="correct">{{correct}}</div>
+          Out Of<br>
+          <div class="outOf">12</div>
+          Found
+        </div>
+		<div id="instruct">
+			<h4>Instructions:</h4>
+			<ul>
+				<li>Click on the box containing a letter to select/deselect.</li>
+				<li>A word can be arranged in any direction.</li>
+			</ul>
+		</div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    background-color:#080808;
+  }
+  .wrapper{
+    min-height: calc(100vh - 50px);
+  }
+  header{
+    height: 100px;
+    text-align: center;
+  }
+  h1{
+    font-family: courier;
+    font-size: 65px;
+    display: inline-block;
+    margin: 35px;
+    color: #1d008c;
+  }
+  main{
+    width:70%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #words{
+    margin-top: 80px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    height: 470px;
+  }
+  #words ul{
+    margin: 0;
+    padding: 40px 0;
+    font-size: 19px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #words li{
+    list-style: none;
+    margin-bottom: 3px;
+    font-weight: 700;
+    color:#4269ff;
+  }
+  #boxOfLetters{
+    margin-top:65px;
+    margin-bottom:25px;
+    display:inline-flex;
+    flex-wrap:wrap;
+    width:492px;
+    border-radius: 13px;
+  }
+  .boxes{
+    position: relative;
+    border:0.5px solid white;
+    width:40px;
+    height:40px;
+    border-radius: 13px;
+  }
+  .boxes div{
+    position: absolute;
+    top: 8%;
+    left: 28%;
+    font-size: 22px;
+    font-family: cursive;
+    color:white;
+  }
+  #points{
+    margin-top:80px;
+    height:200px;
+    width:150px;
+    text-align: center;
+    background-color:white;
+    font-family: verdana;
+    font-size: 19px;
+  }
+  .correct{
+    margin-top:20px;
+    font-size: 22px;
+    font-weight:bold;
+    color:#33a733;
+  }
+  .outOf{
+    font-size: 22px;
+    font-weight:bold;
+    color:#057ee8;
+  }
+  h3{
+    margin:0;
+    padding:7px;
+    font-size: 20px;
+    font-family: verdana;
+    color: white;
+    background-color: teal;
+  }
+  #instruct{
+      font-family: verdana;
+      font-size: 17px;
+      margin:20px auto;
+      color: white;
+  }
+  footer{
+    text-align: center;
+    height:50px;
+  }
+  footer p{
+      margin: 0 auto;
+      font-size: 22px;
+      font-family: monospace;
+      border-top: 2px solid;
+      width: 500px;
+      padding: 7px;
+  }
+  
+  @media only screen and (max-width:1370px)
+  {
+    main{
+      flex-direction: column;
+    }
+    #words{
+      margin:50px auto;
+    }
+    #boxOfLetters{
+      margin: 0 auto;
+    }
+    #points{
+      margin: 50px auto 0 auto; 
+    }
+  }
+  @media only screen and (min-width:1740px)
+  {
+    #words,#boxOfLetters,#points{
+      margin:50px 30px 0 30px;
+    }
+  
+  }
