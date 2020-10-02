@@ -32,13 +32,30 @@ def ciphertext_vigenere(string, keyword):
     return "".join(cipher)
 
 
+def menu():
+    exit = False
+
+    while not exit:
+        print('String: ', end='')
+        string = input()
+        print('Keyword: ', end='')
+        keyword = input()
+
+        string = string.upper()
+        keyword = keyword.upper()
+
+        keyword = keyword_equal_length(string, keyword)
+        cipher_text = ciphertext_vigenere(string, keyword)
+        print(cipher_text, '\n')
+
+        print('Continue? Y : N ', end='')
+        exit_chr = input()
+
+        if exit_chr.upper() == 'N':
+            exit = True
+
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
-
-    string = 'DAVIDAARON'
-    keyword = 'AARON'
-    keyword = keyword_equal_length(string, keyword)
-    cipher_text = ciphertext_vigenere(string, keyword)
-
-    print(cipher_text)
+    menu()
