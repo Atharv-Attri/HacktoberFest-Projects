@@ -26,7 +26,7 @@ This would require you to think about different strategies you can take when pla
 
 **Many people have different opinions on what is sufficient quality. Please be sure to make an issue and have it assigned to you before you start. We would hate it if your work was for nothing, but at the same time, we also need to make sure that this repo counts for other people**
 
-Remember, you should not be contributing to this repo to just +1 your PR count. This is why when you make an issue, we require you to provide a use case.
+Remember, you should not be contributing to this repo to just +1 your PR count. This is why when you make an issue, we require you to provide a use case. Also, We highly recommend you take your code further than just this repo, we contribute to the open-source world, not just this repo. 
 
 ### I NEED HELP!!
 
