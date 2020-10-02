@@ -17,6 +17,14 @@ def keyword_equal_length(string, keyword):
 
 
 def ciphertext_vigenere(string, keyword):
+    """
+    >>> string = 'HACKTOBERFEST'
+    >>> keyword = 'GITHUB'
+    >>> keyword = keyword_equal_length(string, keyword)
+    >>> cipher_text = ciphertext_vigenere(string, keyword)
+    >>> print(cipher_text)
+    NIVRNPHMKMYTZ
+    """
     cipher = []
     for i in range(len(string)):
         letter = 65 + (ord(string[i]) + ord(keyword[i])) % 26
@@ -25,8 +33,12 @@ def ciphertext_vigenere(string, keyword):
 
 
 if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+
     string = 'DAVIDAARON'
     keyword = 'AARON'
     keyword = keyword_equal_length(string, keyword)
     cipher_text = ciphertext_vigenere(string, keyword)
+
     print(cipher_text)
