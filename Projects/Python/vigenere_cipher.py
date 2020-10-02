@@ -17,11 +17,16 @@ def keyword_equal_length(string, keyword):
 
 
 def ciphertext_vigenere(string, keyword):
-    cipher_text = []
+    cipher = []
     for i in range(len(string)):
         letter = 65 + (ord(string[i]) + ord(keyword[i])) % 26
-        cipher_text.append(chr(letter))
-    print("".join(cipher_text))
+        cipher.append(chr(letter))
+    return "".join(cipher)
 
 
-ciphertext_vigenere("DAVIDAARON", "AARONAARON")
+if __name__ == '__main__':
+    string = 'DAVIDAARON'
+    keyword = 'AARON'
+    keyword = keyword_equal_length(string, keyword)
+    cipher_text = ciphertext_vigenere(string, keyword)
+    print(cipher_text)
