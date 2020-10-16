@@ -2,7 +2,8 @@
 A collection of issues for Hacktoberfest!
 ![Image](https://embed-fastly.wistia.com/deliveries/49bd387c40e2c5aada92abdf973bc46d.webp?image_crop_resized=960x540)
 
-####Para tradução, consulte a pasta de tradução
+#### Para tradução, consulte a pasta de tradução
+#### 有關翻譯，請參見翻譯文件夾
 
 ### What you need to do
 Do you have an idea, and would like to add it to a list of HacktoberFest projects?
